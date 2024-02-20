@@ -1,0 +1,91 @@
+﻿<Page
+    x:Class="ar_lidar_new.MainPage"
+    xmlns  ="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="AR_LiDAR" Height="1080" Width="1920">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="10,40"/>
+                <Setter Property="MinWidth" Value="80"/>
+                <Setter Property="MinHeight" Value="80"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="BorderBrush" Value="White"/>
+                <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            </Style>
+            <Style TargetType="Viewbox">
+                <Setter Property="MaxHeight" Value="40"/>
+                <Setter Property="MaxWidth" Value="40"/>
+            </Style>
+        </Grid.Resources>
+
+        <!--Camera preview-->
+        <CaptureElement x:Name="PreviewControl" Stretch="Uniform"/>
+        <Canvas Margin="10,10,10,10">
+            <!--Canvas that will host the face detection bounding boxes, will share the same bounds as the preview within the CaptureElement-->
+            <!--It's contained inside of another canvas to allow for adjusting its size and position after applying a RenderTransform -->
+            <!--For more details, see SetFacesCanvasRotation-->
+            <Canvas Name="FacesCanvas" RenderTransformOrigin="0.5,0.5"/>
+            <Button x:Name="button_server" Content="Connect to Server" Canvas.Left="-12" Canvas.Top="450" Click="Button_Click" Width="165" VerticalAlignment="Top"/>
+            <Button x:Name="button_disconnect" Content="Disconnect from Server" Canvas.Left="-12" Canvas.Top="570" Click="button_disconnect_click" VerticalAlignment="Top"/>
+        </Canvas>
+
+        <!--Textbox with its description of textblock-->
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="1467,37,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Distance (m):" IsEnabled="true" IsReadOnly="true"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="1440,10,0,0" TextWrapping="Wrap" Text="Measured Distance (m):" VerticalAlignment="Top" Height="26" Width="189" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="1467,145,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+        <TextBlock x:Name="TextBlock2" HorizontalAlignment="Left" Margin="1467,117,0,0" TextWrapping="Wrap" Text="Self Longtitude:" VerticalAlignment="Top" Height="26" Width="114" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+
+        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="1467,253,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+        <TextBlock x:Name="TextBlock3" HorizontalAlignment="Left" Margin="1467,225,0,0" TextWrapping="Wrap" Text="Self Latitude:" VerticalAlignment="Top" Height="26" Width="110" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+
+        <TextBox x:Name="TextBox4" HorizontalAlignment="Left" Margin="1467,508,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+        <TextBlock x:Name="TextBlock4" HorizontalAlignment="Left" Margin="1466,460,0,0" TextWrapping="Wrap" Text="Angle heading North:" VerticalAlignment="Top" Height="52" Width="112" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+
+        <TextBlock x:Name="TextBlocK5" HorizontalAlignment="Left" Margin="1467,333,0,0" TextWrapping="Wrap" Text="Self elevation from sea level:" VerticalAlignment="Top" Height="47" Width="110" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+        <TextBox x:Name="TextBox5" HorizontalAlignment="Left" Margin="1466,380,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+
+        <TextBlock x:Name="TextBlock6" HorizontalAlignment="Left" Margin="1292,117,0,0" TextWrapping="Wrap" Text="Point Longtitude:" VerticalAlignment="Top" Height="26" Width="129" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+        <TextBox x:Name="TextBox6" HorizontalAlignment="Left" Margin="1296,145,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+
+        <TextBlock x:Name="TextBlock7" HorizontalAlignment="Left" Margin="1292,225,0,0" TextWrapping="Wrap" Text="Point Latitude:" VerticalAlignment="Top" Height="26" Width="115" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+        <TextBox x:Name="TextBox7" HorizontalAlignment="Left" Margin="1296,251,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+
+        <TextBlock x:Name="TextBlocK8" HorizontalAlignment="Left" Margin="1292,337,0,0" TextWrapping="Wrap" Text="Enemy elevation from sea level:" VerticalAlignment="Top" Height="47" Width="121" FontSize="16" FocusVisualPrimaryBrush="{x:Null}"/>
+        <TextBox x:Name="TextBox8" HorizontalAlignment="Left" Margin="1296,384,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="22" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+
+        <!--For Debugging Purpose only, can be removed if wished so-->
+        <TextBox x:Name="TextBox9" HorizontalAlignment="Left" Margin="1296,508,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="75" Width="112" FontSize="12" AutomationProperties.HelpText="Angle (°):" IsEnabled="true" IsReadOnly="true"/>
+        
+        <!--Capture + Record buttons-->
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,183,0,0" Height="289">
+            <Button x:Name="PhotoButton" Click="PhotoButton_Click" IsEnabled="False">
+                <Viewbox>
+                    <SymbolIcon Symbol="Camera"/>
+                </Viewbox>
+            </Button>
+
+            <Button x:Name="VideoButton" IsEnabled="False" Opacity="0" Visibility="Collapsed">
+                <Grid>
+                    <Ellipse x:Name="StartRecordingIcon" Fill="Red" Width="20" Height="20"/>
+                    <Rectangle x:Name="StopRecordingIcon" Fill="White" Width="20" Height="20" Visibility="Collapsed"/>
+                </Grid>
+            </Button>
+        </StackPanel>
+
+        <!--Button to enable / disable face detection-->
+        <Button Name="FaceDetectionButton" Click="FaceDetectionButton_Click" IsEnabled="False" Margin="10,68,0,0" VerticalAlignment="Top">
+            <Viewbox>
+                <Grid>
+                    <SymbolIcon Name="FaceDetectionDisabledIcon" Symbol="Contact" Visibility="Visible"/>
+                    <SymbolIcon Name="FaceDetectionEnabledIcon" Symbol="Contact2" Visibility="Collapsed"/>
+                </Grid>
+            </Viewbox>
+        </Button>
+    </Grid>
+</Page>
