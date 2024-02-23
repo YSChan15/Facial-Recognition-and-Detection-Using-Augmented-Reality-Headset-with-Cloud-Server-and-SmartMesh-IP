@@ -6,6 +6,7 @@
 -   [Windows 10 / 11 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/), depending on the Windows Operating System you have. 
 
 -   Bluetooth connection enabled for communication between the LiDAR measuring system and PC / headset.
+> The measuring system information can be found [here](https://github.com/YSChan15/Arduino-Measuring-System).
 
 -   A stable internet connection to communicate with the server.
 >**Note**: When running offline, the program will only be able to do face detection, not **face recognition**. 
