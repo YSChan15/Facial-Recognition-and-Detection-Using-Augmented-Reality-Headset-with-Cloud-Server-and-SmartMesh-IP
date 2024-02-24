@@ -150,7 +150,7 @@ On the center is the camera view from the headset. The camera preview is overlay
 
 > The faces are compared against the database on a server. If the faces are not part of the database, it will display unknown on the non-recognized face.
 
-> This program is intended and able to do with multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
+> This program is intended and able to perform multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
 
 
 
