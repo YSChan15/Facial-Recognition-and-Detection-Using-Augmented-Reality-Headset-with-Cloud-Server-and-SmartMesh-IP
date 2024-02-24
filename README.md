@@ -141,13 +141,16 @@ On the center is the camera view from the headset. The camera preview is overlay
 
 > With new updates, the program can now disconnect from the server instead. The "Disconnect From Server" button will appear once the connection is made, allowing user to have the option to terminate their connection with the server from their side. 
 
--  Once connected to the server, everytime a picture is taken, the program will transmit the most current picture taken and send it to the server. 
+-  Once connected to the server, everytime a picture is taken, the program will transmit the most current picture taken and send it to the server, if there's faces to be recognized. 
 
 ### Detecting / Recognizing face 
 -   The detecting / recognizing face algorithm has two seperate parts. The detecting part is run purely from the program, which requires no additional server connection to do so. 
 
--   To recognize faces, the face has to be part of the database on the server. Then, whenever a picture is taken with faces inside the frame of the picture, it will be transmitted to the server for analysis. The server will send back names and it will be displayed on the box where the face is drawn. 
-> This program is intended and able to do with multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data. 
+-   To recognize faces, the face has to be part of the database on the server. Then, whenever a picture is taken with faces inside the frame of the picture, it will be transmitted to the server for analysis. The server will send back names and it will be displayed on the box where the face is drawn.
+
+> The faces are compared against the database on a server. If the faces are not part of the database, it will display unknown on the non-recognized face.
+
+> This program is intended and able to do with multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
 
 
 
