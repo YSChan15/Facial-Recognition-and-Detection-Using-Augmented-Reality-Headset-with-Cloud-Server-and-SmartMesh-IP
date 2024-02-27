@@ -13,6 +13,10 @@
 
 > This project is sponsored by a grant from the Emerson cooperation.
 
+- A senior design capstone project. Worked with three others (Brycen, Hayden, Brandon) to develop this system. I am in charge of developing the Arduino measuring system as well as the program for the Augmented Reality (AR) headset.
+
+- The program runs on Microsoft Hololens 2 headset, with features of performing facial recognition when connected to the headset or face detection when running it offline. Besides that, the program also calculates the estimated altitude, latitude, and longitude of the pointed distance with the Arduino based measuring system.
+
 ## Requirements 
 -   [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/downloads/), with Universal Windows Platform Development and .NET desktop development installed. 
 
