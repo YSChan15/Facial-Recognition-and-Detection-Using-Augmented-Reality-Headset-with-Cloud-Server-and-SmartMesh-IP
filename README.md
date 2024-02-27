@@ -1,5 +1,18 @@
 # Facial Recognition Program 
 
+## Introduction 
+- This project is part of the senior design of the following title:
+
+**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+
+- Advisor: Dr Zheng 
+
+- Commitee: Dr Hossain, Dr Cavalcanti
+  
+- Group members: Yu Sheng Chan, Brycen Hillukka, Hayden Scott, Brandon Wieberdink 
+
+> This project is sponsored by a grant from the Emerson cooperation.
+
 ## Requirements 
 -   [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/downloads/), with Universal Windows Platform Development and .NET desktop development installed. 
 
