@@ -3,7 +3,7 @@
 ## Introduction 
 - This project is part of the senior design of the following title:
 
-**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+>**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
 
 - Advisor: Dr Zheng 
 
