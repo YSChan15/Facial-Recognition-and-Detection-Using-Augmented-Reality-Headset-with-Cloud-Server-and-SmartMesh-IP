@@ -11,7 +11,7 @@
   
 - Group members: Yu Sheng Chan, Brycen Hillukka, Hayden Scott, Brandon Wieberdink 
 
-> This project is sponsored by a grant from the Emerson cooperation.
+> This project is sponsored by a grant from the Emerson corporation.
 
 - A senior design capstone project. Worked with three others (Brycen, Hayden, Brandon) to develop this system. I am in charge of developing the Arduino measuring system as well as the program for the Augmented Reality (AR) headset.
 
