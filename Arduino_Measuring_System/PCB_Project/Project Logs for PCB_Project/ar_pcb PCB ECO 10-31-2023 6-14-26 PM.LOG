@@ -1,0 +1,56 @@
+Change Component Comment : Designator=R 1K Old Comment=Comment New Comment=Resistor
+Change Component Comment : Designator=R 2K Old Comment=Comment New Comment=Resistor
+Change Component Comment : Designator=R1 2.2K Old Comment=Comment New Comment=Resistor
+Change Component Comment : Designator=R2 2.2K Old Comment=Comment New Comment=Resistor
+Change Component Designator: OldDesignator=R 1K NewDesignator=R1
+Change Component Designator: OldDesignator=R 2K NewDesignator=R2
+Change Component Designator: OldDesignator=R1 2.2K NewDesignator=R3
+Change Component Designator: OldDesignator=R2 2.2K NewDesignator=R4
+Change component parameters: Designator = "R 1K" ("R1"); Footprint = "RESC3216X70X50LL05T20"; UniqueID = "\SLJABGAU" ("\SLJABGAU")
+Change component parameters (AddParameter): Name = "DTEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "T_REL_LOCAL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC2"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R 2K" ("R2"); Footprint = "RESC3216X70X50LL05T20"; UniqueID = "\QSAROKQF" ("\QSAROKQF")
+Change component parameters (AddParameter): Name = "DTEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "R1"; Value = "2K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "T_REL_LOCAL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC2"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1 2.2K" ("R3"); Footprint = "FP-M22-2510205-MFG"; UniqueID = "\RGIXPKEB" ("\RGIXPKEB")
+Change component parameters (AddParameter): Name = "DTEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "R1"; Value = "2.2K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "T_REL_LOCAL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC2"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2 2.2K" ("R4"); Footprint = "FP-M22-2510205-MFG"; UniqueID = "\DPGNMRLU" ("\DPGNMRLU")
+Change component parameters (AddParameter): Name = "DTEMP"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "R4"; Value = "2.2K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "T_REL_LOCAL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC1"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TC2"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBluetooth_2 Pin=R1-1
+Added Pin To Net: NetName=NetArduino_1 Pin=R1-2
+Added Pin To Net: NetName=NetBluetooth_2 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=NetArduino_23 Pin=R3-1
+Added Pin To Net: NetName=NetCompass Voltage_2 Pin=R3-2
+Added Pin To Net: NetName=NetArduino_24 Pin=R4-1
+Added Pin To Net: NetName=NetCompass Voltage_2 Pin=R4-2
+Added Member To Class: ClassName=ar_pcb_connection Member=Component R1 Resistor
+Added Member To Class: ClassName=ar_pcb_connection Member=Component R2 Resistor
+Added Member To Class: ClassName=ar_pcb_connection Member=Component R3 Resistor
+Added Member To Class: ClassName=ar_pcb_connection Member=Component R4 Resistor

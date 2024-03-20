@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=*2 Old Footprint=mpu6050-Footprint-1 New Footprint=mpu6050-Footprint-1
+Change Component Footprint: Designator=*3 Old Footprint=SF11_C lidar module-Footprint-1 New Footprint=SF11_C lidar module-Footprint-1
+Change Component Comment: Designator=Arduino NANO1 Old Comment= New Comment=Comment
+Change Component Comment: Designator=*4 Old Comment=Electronic Compass New Comment=Comment
+Change Component Comment: Designator=*5 Old Comment=GT-U7 GPS Sensor New Comment=Comment
+Change Component Comment: Designator=*1 Old Comment=hm10 New Comment=Comment
+Change Component Comment: Designator=Compass Voltage Header Old Comment=M22-2010305 New Comment=Comment
+Change Component Comment: Designator=*2 Old Comment=mpu6050 New Comment=Comment
+Change Component Comment: Designator=*3 Old Comment=SF11/C lidar module New Comment=Comment
+Change Component Designator: OldDesignator=*1 NewDesignator=Bluetooth
+Change Component Designator: OldDesignator=*2 NewDesignator=MPU
+Change Component Designator: OldDesignator=*3 NewDesignator=Lidar Wire Mount
+Change Component Designator: OldDesignator=*4 NewDesignator=Compass
+Change Component Designator: OldDesignator=*5 NewDesignator=GPS
+Change Component Designator: OldDesignator=Arduino NANO1 NewDesignator=Arduino
+Change Component Designator: OldDesignator=Compass Voltage Header NewDesignator=Compass Voltage

@@ -1,0 +1,24 @@
+Altium Designer Pick and Place Locations
+C:\2023 Senior Design Project\pcb_ar_lidar\PCB_Project\Project Outputs for PCB_Project\Pick Place for ar_pcb.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       01/11/23
+Time:       16:15
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"R1","Resistor","TopLayer","RESC3216X70X50LL05T20","7250.000","2475.000","270","Resistor"
+"R2","Resistor","TopLayer","RESC3216X70X50LL05T20","6995.000","2480.000","270","Resistor"
+"R3","Resistor","TopLayer","FP-M22-2510205-MFG","8385.000","2160.000","270","Resistor"
+"R4","Resistor","TopLayer","FP-M22-2510205-MFG","7585.000","2075.000","90","Resistor"
+"MPU","Comment","TopLayer","mpu6050-Footprint-1","3400.000","3150.000","0","MPU-6050 through hole"
+"Compass Voltage","Comment","TopLayer","FP-M22-2010305-MFG","8050.000","2100.000","225","CONN HEADER VERT 3POS 2MM"
+"Lidar Wire Mount","Comment","TopLayer","SF11_C_lidar_module-Footprint-1","6653.408","3225.882","345","SF11/C lidar module"
+"Bluetooth","Comment","TopLayer","hm10-Footprint-1","7533.494","2675.000","330","HM10-BLE module"
+"GPS","Comment","TopLayer","GT-U7_GPS_Sensor-Footprint-1","2196.791","2078.557","320","GPS sensor"
+"Compass","Electronic Compass","TopLayer","Electronic_Compass-Footprint-1","6250.000","2450.000","270","Electronic Compass GY271 HMC5883L"
+"Arduino","Comment","TopLayer","FP-A000005-MFG","8767.819","976.327","35","ARDUINO NANO ATMEGA328 EVAL BRD"

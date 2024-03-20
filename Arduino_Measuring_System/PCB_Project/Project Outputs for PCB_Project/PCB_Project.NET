@@ -1,0 +1,82 @@
+Wire List
+
+<<< Component List >>>
+hm10                            *1             hm10-Footprint-1
+mpu6050                         *2             mpu6050-Footprint-1
+SF11/C lidar module             *3             SF11_C lidar module-Footprint
+Electronic Compass              *4             Electronic Compass-Footprint-
+GT-U7 GPS Sensor                *5             GT-U7 GPS Sensor-Footprint-1
+                                Arduino N      FP-A000005-MFG
+M22-2010305                     Compass V      FP-M22-2010305-MFG
+Resistor                        R1             
+Resistor                        R2             
+Resistor                        R3             
+Resistor                        R4             
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00033] NetArduino NANO1_17
+        Arduino N  17      +3V3           POWER       
+        Compass V  3       3              PASSIVE     M22-2010305
+
+[00021] NetArduino NANO1_1
+        Arduino N  1       D1/TX          I/O         
+        R1         2       2              PASSIVE     Resistor
+
+[00019] Net*5_4
+        *5         4       TXD            INPUT       GT-U7 GPS Sensor
+        Arduino N  6       D3             I/O         
+
+[00018] Net*5_3
+        *5         3       RXD            INPUT       GT-U7 GPS Sensor
+        Arduino N  5       D2             I/O         
+
+[00016] Net*4_1
+        *4         1       Vcc            INPUT       Electronic Compass
+        Compass V  2       2              PASSIVE     M22-2010305
+        R3         2       2              PASSIVE     Resistor
+        R4         2       2              PASSIVE     Resistor
+
+[00008] Net*2_4
+        *2         4       SDA            INPUT       mpu6050
+        *3         2       SDA            INPUT       SF11/C lidar module
+        *4         4       SDA            INPUT       Electronic Compass
+        Arduino N  23      A4             I/O         
+        R3         1       1              PASSIVE     Resistor
+
+[00007] Net*2_3
+        *2         3       SCL            INPUT       mpu6050
+        *3         1       SCL            INPUT       SF11/C lidar module
+        *4         3       SCL            INPUT       Electronic Compass
+        Arduino N  24      A5             I/O         
+        R4         1       1              PASSIVE     Resistor
+
+[00005] Net*1_5
+        *1         5       VCC            INPUT       hm10
+        *2         1       VCC            INPUT       mpu6050
+        *3         7       Vcc            INPUT       SF11/C lidar module
+        *5         1       Vcc            INPUT       GT-U7 GPS Sensor
+        Arduino N  27      +5V            POWER       
+        Compass V  1       1              PASSIVE     M22-2010305
+
+[00004] Net*1_3
+        *1         3       TXD            INPUT       hm10
+        Arduino N  2       D0/RX          I/O         
+
+[00003] Net*1_2
+        *1         2       RXD            INPUT       hm10
+        R1         1       1              PASSIVE     Resistor
+        R2         1       1              PASSIVE     Resistor
+
+[00001] GND
+        *1         4       GND            INPUT       hm10
+        *2         2       GND            INPUT       mpu6050
+        *3         6       Ground         INPUT       SF11/C lidar module
+        *4         2       Gnd            INPUT       Electronic Compass
+        *5         2       Gnd            INPUT       GT-U7 GPS Sensor
+        Arduino N  4       GND            POWER       
+        Arduino N  29      GND            POWER       
+        R2         2       2              PASSIVE     Resistor
+

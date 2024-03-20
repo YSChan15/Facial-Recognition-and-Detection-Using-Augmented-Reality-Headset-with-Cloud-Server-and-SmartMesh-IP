@@ -1,0 +1,82 @@
+Wire List
+
+<<< Component List >>>
+Comment                         Arduino        FP-A000005-MFG
+Comment                         Bluetooth      hm10-Footprint-1
+Comment                         Compass        Electronic Compass-Footprint-
+Comment                         Compass V      FP-M22-2010305-MFG
+Comment                         GPS            GT-U7 GPS Sensor-Footprint-1
+Comment                         Lidar Wir      SF11_C lidar module-Footprint
+Comment                         MPU            mpu6050-Footprint-1
+Resistor                        R1             
+Resistor                        R2             
+Resistor                        R3             
+Resistor                        R4             
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] GND
+        Arduino    4       GND            POWER       Comment
+        Arduino    29      GND            POWER       Comment
+        Bluetooth  4       GND            PASSIVE     Comment
+        Compass    2       Gnd            INPUT       Comment
+        GPS        2       Gnd            INPUT       Comment
+        Lidar Wir  6       Ground         INPUT       Comment
+        MPU        2       GND            INPUT       Comment
+        R2         2       2              PASSIVE     Resistor
+
+[00002] NetArduino_1
+        Arduino    1       D1/TX          I/O         Comment
+        R1         2       2              PASSIVE     Resistor
+
+[00003] NetArduino_2
+        Arduino    2       D0/RX          I/O         Comment
+        Bluetooth  3       TXD            INPUT       Comment
+
+[00005] NetArduino_5
+        Arduino    5       D2             I/O         Comment
+        GPS        3       RXD            INPUT       Comment
+
+[00006] NetArduino_6
+        Arduino    6       D3             I/O         Comment
+        GPS        4       TXD            INPUT       Comment
+
+[00017] NetArduino_17
+        Arduino    17      +3V3           POWER       Comment
+        Compass V  3       3              PASSIVE     Comment
+
+[00023] NetArduino_23
+        Arduino    23      A4             I/O         Comment
+        Compass    4       SDA            INPUT       Comment
+        Lidar Wir  2       SDA            INPUT       Comment
+        MPU        4       SDA            INPUT       Comment
+        R3         1       1              PASSIVE     Resistor
+
+[00024] NetArduino_24
+        Arduino    24      A5             I/O         Comment
+        Compass    3       SCL            INPUT       Comment
+        Lidar Wir  1       SCL            INPUT       Comment
+        MPU        3       SCL            INPUT       Comment
+        R4         1       1              PASSIVE     Resistor
+
+[00027] NetArduino_27
+        Arduino    27      +5V            POWER       Comment
+        Bluetooth  5       VCC            PASSIVE     Comment
+        Compass V  1       1              PASSIVE     Comment
+        GPS        1       Vcc            INPUT       Comment
+        Lidar Wir  7       Vcc            INPUT       Comment
+        MPU        1       VCC            INPUT       Comment
+
+[00031] NetBluetooth_2
+        Bluetooth  2       RXD            INPUT       Comment
+        R1         1       1              PASSIVE     Resistor
+        R2         1       1              PASSIVE     Resistor
+
+[00033] NetCompass Voltage_2
+        Compass    1       Vcc            INPUT       Comment
+        Compass V  2       2              PASSIVE     Comment
+        R3         2       2              PASSIVE     Resistor
+        R4         2       2              PASSIVE     Resistor
+

@@ -1,0 +1,512 @@
+*************************************************************
+FileName = ar_pcb.GBR
+AutoAperture = True
+*************************************************************
+Generating : I2C
+      File : ar_pcb.G2
+
+    Adding Layer      : I2C
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Power
+      File : ar_pcb.G1
+
+    Adding Layer      : Power
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : ar_pcb.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : UART
+      File : ar_pcb.G3
+
+    Adding Layer      : UART
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Ground
+      File : ar_pcb.G4
+
+    Adding Layer      : Ground
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : ar_pcb.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : ar_pcb.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : ar_pcb.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D23
+    D26
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ar_pcb.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : ar_pcb.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : ar_pcb.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : ar_pcb.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : ar_pcb.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : ar_pcb.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : ar_pcb.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D11
+    D12
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : ar_pcb.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : ar_pcb.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : ar_pcb.GM3
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : ar_pcb.GM4
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : ar_pcb.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : ar_pcb.GM12
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 5
+      File : ar_pcb.4
+
+    Adding Layer      : Dielectric 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : ar_pcb.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 4
+      File : ar_pcb.3
+
+    Adding Layer      : Dielectric 4
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : ar_pcb.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : ar_pcb.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D19
+    D20
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : ar_pcb.5
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : ar_pcb.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : ar_pcb.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : ar_pcb.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : ar_pcb.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : ar_pcb.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : ar_pcb.2
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : ar_pcb.GM11
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : ar_pcb.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D12
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : ar_pcb.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D29
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : ar_pcb.GM
+
+
+Used DCodes :
+    D32
+*************************************************************
+

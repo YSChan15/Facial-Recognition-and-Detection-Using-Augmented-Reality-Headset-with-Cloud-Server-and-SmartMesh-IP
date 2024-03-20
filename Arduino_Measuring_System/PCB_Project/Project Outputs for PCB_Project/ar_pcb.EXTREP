@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: ar_pcb.GBR   5/11/2023  4:07:18 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 Power                                   
+.G2                 I2C                                     
+.G3                 UART                                    
+.G4                 Ground                                  
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GM3                Top Designator                          
+.GM4                Bottom Designator                       
+.GM5                Top Assembly                            
+.GM11               Top Component Outline                   
+.GM12               Bottom Component Outline                
+.GM13               Top 3D Body                             
+.GM15               Top Courtyard                           
+.GM16               Top Component Center                    
+.GM20               Bottom Assembly                         
+.GM21               Bottom Courtyard                        
+.GM23               Bottom 3D Body                          
+.GM24               Bottom Component Center                 
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.4                  Dielectric 5                            
+.5                  Dielectric 3                            
+.2                  Dielectric 2                            
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
+.3                  Dielectric 4                            
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+.GM                 Profile                                 
+------------------------------------------------------------------------------------------

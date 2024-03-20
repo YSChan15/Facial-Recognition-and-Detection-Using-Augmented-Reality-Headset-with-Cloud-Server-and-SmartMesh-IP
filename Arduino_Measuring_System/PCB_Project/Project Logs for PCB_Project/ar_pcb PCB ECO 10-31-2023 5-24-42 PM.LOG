@@ -1,0 +1,146 @@
+Change Component Footprint: Designator=MPU Old Footprint=mpu6050-Footprint-1 New Footprint=mpu6050-Footprint-1
+Change Component Footprint: Designator=Lidar Wire Mount Old Footprint=SF11_C lidar module-Footprint-1 New Footprint=SF11_C lidar module-Footprint-1
+Change Managed Component Library Link : Designator=Arduino Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=C11D27E4-B184-443F-A519-2B63F608D43E Old RevisionGUID= New RevisionGUID=CCED899B-9F5D-42B8-BBCC-2B15E12C2169
+Change Managed Component Library Link : Designator=Bluetooth Old VaultGUID= New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID= New ItemGUID=4a631abe-2395-4f38-9359-bef5b88e1ce4 Old RevisionGUID= New RevisionGUID=1768da4a-7c45-4814-baaf-f270203d33e8
+Change Managed Component Library Link : Designator=Compass Old VaultGUID= New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID= New ItemGUID=0a986979-684d-4eab-8c63-025a1d021dcb Old RevisionGUID= New RevisionGUID=f42043a5-a7bf-46bf-b15d-ea0581e37d64
+Change Managed Component Library Link : Designator=Compass Voltage Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=22E88B9E-563B-40A5-A13D-6DC0A79493F9 Old RevisionGUID= New RevisionGUID=03BD2716-5D6C-41E3-9205-ADD9940C353C
+Change Managed Component Library Link : Designator=GPS Old VaultGUID= New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID= New ItemGUID=e484b130-162d-4489-a423-0206a1ffbe70 Old RevisionGUID= New RevisionGUID=cf5645a9-7703-4415-a053-d99b88c96c40
+Change Managed Component Library Link : Designator=Lidar Wire Mount Old VaultGUID= New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID= New ItemGUID=f02b917c-ccd8-4f79-9077-f2ffd6102ffe Old RevisionGUID= New RevisionGUID=bff277e1-ec7f-40b2-9e35-5a342dc565e1
+Change Managed Component Library Link : Designator=MPU Old VaultGUID= New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID= New ItemGUID=2a0719d2-e7b7-4920-b680-34fd3b26f28f Old RevisionGUID= New RevisionGUID=6df4e162-171c-4bee-9311-073d72e4a64f
+Change component parameters: Designator = "Arduino" ("Arduino NANO1"); Footprint = "FP-A000005-MFG"; UniqueID = "\SBOAHGAV" ("\SBOAHGAV")
+Change component parameters (AddParameter): Name = "Core Architecture"; Value = "AVR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Data Bus Width"; Value = "8b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Evaluation Kit"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.25inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "7inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Bits"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "12V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "50"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "AVR® ATmega"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Weight"; Value = "0.358383oz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "5inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Bluetooth" ("*1"); Footprint = "hm10-Footprint-1"; UniqueID = "\IUAEOQRE" ("\IUAEOQRE")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "Compass" ("*4"); Footprint = "Electronic Compass-Footprint-1"; UniqueID = "\EJAYHNNZ" ("\EJAYHNNZ")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "Compass Voltage" ("Compass Voltage Header"); Footprint = "FP-M22-2010305-MFG"; UniqueID = "\MDYHYAFZ" ("\MDYHYAFZ")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SIL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "GOLD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Bronze"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Mating Length"; Value = "0.138inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Pull"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "10GR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mated Stacking Heights"; Value = "8.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reach SVHC Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "M22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "650V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "GPS" ("*5"); Footprint = "GT-U7 GPS Sensor-Footprint-1"; UniqueID = "\LBMZKQZI" ("\LBMZKQZI")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "Lidar Wire Mount" ("*3"); Footprint = "SF11_C lidar module-Footprint-1"; UniqueID = "\CINNIGMW" ("\CINNIGMW")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "MPU" ("*2"); Footprint = "mpu6050-Footprint-1"; UniqueID = "\ENWCKRNK" ("\ENWCKRNK")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Arduino-4
+Added Pin To Net: NetName=GND Pin=Arduino-29
+Added Pin To Net: NetName=GND Pin=Bluetooth-4
+Added Pin To Net: NetName=GND Pin=Compass-2
+Added Pin To Net: NetName=GND Pin=GPS-2
+Added Pin To Net: NetName=GND Pin=Lidar Wire Mount-6
+Added Pin To Net: NetName=GND Pin=MPU-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetArduino_1 Pin=Arduino-1
+Added Net: Name=NetArduino_1
+Added Pin To Net: NetName=NetArduino_2 Pin=Arduino-2
+Added Pin To Net: NetName=NetArduino_2 Pin=Bluetooth-3
+Added Net: Name=NetArduino_2
+Added Pin To Net: NetName=NetArduino_5 Pin=Arduino-5
+Added Pin To Net: NetName=NetArduino_5 Pin=GPS-3
+Added Net: Name=NetArduino_5
+Added Pin To Net: NetName=NetArduino_6 Pin=Arduino-6
+Added Pin To Net: NetName=NetArduino_6 Pin=GPS-4
+Added Net: Name=NetArduino_6
+Added Pin To Net: NetName=NetArduino_17 Pin=Arduino-17
+Added Pin To Net: NetName=NetArduino_17 Pin=Compass Voltage-3
+Added Net: Name=NetArduino_17
+Added Pin To Net: NetName=NetArduino_23 Pin=Arduino-23
+Added Pin To Net: NetName=NetArduino_23 Pin=Compass-4
+Added Pin To Net: NetName=NetArduino_23 Pin=Lidar Wire Mount-2
+Added Pin To Net: NetName=NetArduino_23 Pin=MPU-4
+Added Net: Name=NetArduino_23
+Added Pin To Net: NetName=NetArduino_24 Pin=Arduino-24
+Added Pin To Net: NetName=NetArduino_24 Pin=Compass-3
+Added Pin To Net: NetName=NetArduino_24 Pin=Lidar Wire Mount-1
+Added Pin To Net: NetName=NetArduino_24 Pin=MPU-3
+Added Net: Name=NetArduino_24
+Added Pin To Net: NetName=NetArduino_27 Pin=Arduino-27
+Added Pin To Net: NetName=NetArduino_27 Pin=Bluetooth-5
+Added Pin To Net: NetName=NetArduino_27 Pin=Compass Voltage-1
+Added Pin To Net: NetName=NetArduino_27 Pin=GPS-1
+Added Pin To Net: NetName=NetArduino_27 Pin=Lidar Wire Mount-7
+Added Pin To Net: NetName=NetArduino_27 Pin=MPU-1
+Added Net: Name=NetArduino_27
+Added Pin To Net: NetName=NetBluetooth_2 Pin=Bluetooth-2
+Added Net: Name=NetBluetooth_2
+Added Pin To Net: NetName=NetCompass Voltage_2 Pin=Compass-1
+Added Pin To Net: NetName=NetCompass Voltage_2 Pin=Compass Voltage-2
+Added Net: Name=NetCompass Voltage_2
+Added Class: Name=ar_pcb_connection

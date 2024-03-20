@@ -1,0 +1,24 @@
+Change Comment: Unknown Component : R 1K
+Change Comment: Unknown Component : R 2K
+Change Comment: Unknown Component : R1 2.2K
+Change Comment: Unknown Component : R2 2.2K
+Change Designator: Unknown Component : R 1K
+Change Designator: Unknown Component : R 2K
+Change Designator: Unknown Component : R1 2.2K
+Change Designator: Unknown Component : R2 2.2K
+Change component parameters: Component "R 1K" not found
+Change component parameters: Component "R 2K" not found
+Change component parameters: Component "R1 2.2K" not found
+Change component parameters: Component "R2 2.2K" not found
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor
+Add Class Member: Failed to add class member : Component R3 Resistor
+Add Class Member: Failed to add class member : Component R4 Resistor

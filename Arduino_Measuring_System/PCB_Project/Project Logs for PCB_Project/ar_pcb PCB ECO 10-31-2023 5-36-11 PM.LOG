@@ -1,0 +1,16 @@
+Change Component DesignItemId : Designator=Compass Old DesignItemId=CMP-00030-00001-3 New DesignItemId=CMP-00030-00001-4
+Change Component Footprint: Designator=Compass Old Footprint=Electronic Compass-Footprint-1 New Footprint=Electronic Compass-Footprint-1
+Change Component Comment : Designator=Compass Old Comment=Comment New Comment=Electronic Compass
+Change Managed Component Library Link : Designator=Compass Old VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 New VaultGUID=CE9FE9F0-A4B0-4776-919A-8E472A82AA70 Old ItemGUID=0a986979-684d-4eab-8c63-025a1d021dcb New ItemGUID=0a986979-684d-4eab-8c63-025a1d021dcb Old RevisionGUID=f42043a5-a7bf-46bf-b15d-ea0581e37d64 New RevisionGUID=8c20a0f7-2371-49d0-a654-540c261256ed
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2
+Add Pin To Net: Unknown Pin: Pin R4-1
+Add Pin To Net: Unknown Pin: Pin R4-2
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor
+Add Class Member: Failed to add class member : Component R3 Resistor
+Add Class Member: Failed to add class member : Component R4 Resistor

@@ -1,0 +1,48 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCB_Project.PrjPcb]
+   Generated File[ar_pcb.GTO]
+   Generated File[ar_pcb.GTP]
+   Generated File[ar_pcb.GTS]
+   Generated File[ar_pcb.GTL]
+   Generated File[ar_pcb.G1]
+   Generated File[ar_pcb.G2]
+   Generated File[ar_pcb.G3]
+   Generated File[ar_pcb.G4]
+   Generated File[ar_pcb.GBL]
+   Generated File[ar_pcb.GBS]
+   Generated File[ar_pcb.GBP]
+   Generated File[ar_pcb.GBO]
+   Generated File[ar_pcb.GM1]
+   Generated File[ar_pcb.GM3]
+   Generated File[ar_pcb.GM4]
+   Generated File[ar_pcb.GM5]
+   Generated File[ar_pcb.GM11]
+   Generated File[ar_pcb.GM12]
+   Generated File[ar_pcb.GM13]
+   Generated File[ar_pcb.GM15]
+   Generated File[ar_pcb.GM16]
+   Generated File[ar_pcb.GM20]
+   Generated File[ar_pcb.GM21]
+   Generated File[ar_pcb.GM23]
+   Generated File[ar_pcb.GM24]
+   Generated File[ar_pcb.GKO]
+   Generated File[ar_pcb.GPT]
+   Generated File[ar_pcb.GPB]
+   Generated File[ar_pcb.4]
+   Generated File[ar_pcb.5]
+   Generated File[ar_pcb.2]
+   Generated File[ar_pcb.GML]
+   Generated File[ar_pcb.1]
+   Generated File[ar_pcb.3]
+   Generated File[ar_pcb.GD1]
+   Generated File[ar_pcb.GG1]
+   Generated File[ar_pcb.GM]
+   Generated File[ar_pcb.EXTREP]
+   Generated File[ar_pcb.REP]
+
+
+Files Generated   : 39
+Documents Printed : 0
+
+Finished Output Generation At 4:07:19 PM On 5/11/2023
