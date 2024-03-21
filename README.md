@@ -21,9 +21,3 @@
 
 - Abstract:   The objective of this project is to design and develop an intelligent position estimation and sharing system for battlefields, using Augmented Reality (AR), LiDAR, GPS, electric compass, gyroscope, and a wireless sensor network. The ultimate device will be used by a locator to identify adversaries, locate their positions, and share the information to fellow soldiers in the area. The prototype system uses the AR headset to capture the facial, distance, position, and other information and upload it to a cloud server for facial recognition. The communication link is through a cellular phone system or satellite communication. LiDAR, GPS, electric compass, and gyroscopic sensors are used to estimate an enemy’s distance and location. The information of the identified adversaries are sent to other soldiers in the related area of the battlefield by using the wireless sensor network, SmartMesh IP. The system is battery-powered and uses solar panels for recharging, making it self-sustaining and suitable for deployment in remote locations. The use of SmartMesh IP technology allows for efficient and reliable communication between the central hub and the sensors, even in challenging environments. This wireless sensor network is ideal for decentralized information distribution and has the potential to provide valuable insights and enable informed decision-making in remote combat areas where traditional internet connectivity may not be available. This project completes the first-generation system.
 
-- The program runs on Microsoft Hololens 2 headset, with features of performing facial recognition when connected to the headset or face detection when running it offline. Besides that, the program also calculates the estimated altitude, latitude, and longitude of the pointed distance with the Arduino based measuring system.
-
-
-
-
-
