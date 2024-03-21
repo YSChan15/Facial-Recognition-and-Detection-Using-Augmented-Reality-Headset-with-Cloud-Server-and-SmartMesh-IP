@@ -14,6 +14,8 @@
 -   A stable internet connection to communicate with the server.
 >**Note**: When running offline, the program will only be able to do face detection, not **face recognition**. 
 
+
+
 ## Running the program 
 -   Depending on which version of Windows you are using, you will need to change the target version to run the program. 
 
@@ -51,6 +53,8 @@
 -   Once you found the characteristics / services, use the found ID to replace the ID under **public MainPage()** under MainPage.xaml.cs for both MyService_GUID and MyCharacteristic_GUID.
 
 ![BLE](Pictures/Step%202_1.jpg)
+
+
 
 ### When running on PC 
 >   **NOTE: This step needs to be run everytime there is a change to make sure that the program running on the PC is up to date.** 
@@ -99,7 +103,7 @@ and set Authentication Mode to Universal (Unencrypted Protocol).
 
 ![](Pictures/Step%203_2_5.png)
 
->   **NOTE**: If you are using HoloLens 2 on a different network other than HuskeyNet Secure or Visual Studio could not find the address, the address might have changed. In HoloLens 2, go to Settings -> Update & Security -> For developers. Under the “Device Portal” section, IP address of the Device can be found on the Connect using Wi-Fi section. The address is number after the https://. Replace the address with the number. 
+>   **NOTE**: If you are using the HoloLens 2 on a different network other than HuskeyNet Secure or Visual Studio could not find the address, the address might have changed. On the HoloLens 2, go to Settings -> Update & Security -> For developers. Under the “Device Portal” section, the IP address of the Device can be found on the Connect using Wi-Fi section. The address is the number after the https://. Replace the address with the number. 
 
 > **NOTE**: If this is the first time the PC is being paired with the Hololens 2, additional pin is required.
 The additional pin can be found under Settings -> Update & Security -> For developers -> Pair. 
@@ -119,20 +123,20 @@ On the left, user can find the following buttons from top to bottom:
 1) Face detection button. This will draw a box around each face that the program detects. 
 2) Take photo button. This will allow the program to take a photo. When photo is taken, the button is temporarily disabled to avoid user from spamming the button. 
 > If the program is connected to the server, the headset will transmit the cropped faces to the server for facial recognition. 
-3) Connect to server / Disconnect from server button. The purpose of the button is to allow user to connect to the server for face recognition, or disconnect it for no face recognition. 
+3) Connect to server / Disconnect from server button. The purpose of the button is to allow user to connect to the server for facial recognition, or disconnect it for no facial recognition. 
 > Only one of the connect / disconnect button will appear at a time. This is to prevent user from accidentally pressing both buttons at a time, crashing the program / server. 
 
-On the right, user can find multiple textboxes with their description on top of the textbox. The textbox purpose is to display all the measurements data. The column to the far right is the self point data (measurement system on the headset). The column on the second right displays the measured / estimated point data with the measurement data from the measurement system. 
+On the right, the user can find multiple textboxes with their description on top of the textbox. The textbox's purpose is to display all the measured data. The column to the far right is the self point data (measurement system on the headset). The column to the left of that displays the measured / estimated point data with the measurement data from the measurement system. 
 
 On the center is the camera view from the headset. The camera preview is overlayed on top of the boxes / buttons.
 
 ### Taking measurements with the measurement system. 
--   The measurement system is an Arduino based system. The purpose of the system is to just collect data and send the data to the program for calculation. Therefore, only a simple microcontroller is needed to run the task.
+-   The measurement system utilizes an Arduino Nano microcontroller. The purpose of the system is to collect data and send the data to the AR headset for estimating the measured person's GPS location.
 
--   Refer to Arduino_Measuring_System folder for more information about the measurement system.
+-   Refer to arduino-code under the github branch for more information about the measurement system.
 
 ### Connecting to the cloud server from the AR headset
--  Amazon EC2 cloud based server is used to process the face recognition. Change the IP Address and Port according to your needs.
+-  A Amazon EC2 cloud server is used to process the facial recognition results and distribute the information to the Wireless Sensor Network. Change the IP Address and Port according to your needs.
 
 -  To connect to the server, just press the button "Connect to Server" and it will automatically connect.
 
@@ -143,13 +147,14 @@ On the center is the camera view from the headset. The camera preview is overlay
 -  Once connected to the server, everytime a picture is taken, the program will transmit the most current picture taken and send it to the server, if there's faces to be recognized. 
 
 ### Detecting / Recognizing face 
--   The detecting / recognizing face algorithm has two seperate parts. The detecting part is run purely from the program, which requires no additional server connection to do so. 
+-   The facial detection and recognition algorithm has two separate parts. The detecting part is run purely from the AR headset program, which requires no additional server connection to do so. 
 
 -   To recognize faces, the face has to be part of the database on the server. Then, whenever a picture is taken with faces inside the frame of the picture, it will be transmitted to the server for analysis. The server will send back names and it will be displayed on the box where the face is drawn.
 
 > The faces are compared against the database on a server. If the faces are not part of the database, it will display unknown on the non-recognized face.
 
-> This program is intended and able to perform multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
+> This program is intended and able to recognize multiple faces at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
+
 
 
 
