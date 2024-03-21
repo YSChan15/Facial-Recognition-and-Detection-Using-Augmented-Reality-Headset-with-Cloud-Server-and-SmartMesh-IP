@@ -9,7 +9,7 @@
 
 * Commitee: Dr Hossain, Dr Cavalcanti
   
-* Group members: Yu Sheng Chan, Brycen Hillukka, Hayden Scott, Brandon Wieberdink 
+* Group members: Brycen Hillukka, Yu Sheng Chan Hayden Scott, Brandon Wieberdink 
 
 > This project is sponsored by a grant from the Emerson cooperation. 
 
@@ -19,7 +19,7 @@
 > - Yu Sheng Chan   (Spring 2023)
 >
 > Reads the measured distance from the SF11/C LiDAR sensor using an 
-> Arduino Nano using the I2C protocol. Connect the SCL connection from 
+> Arduino Nano with the I2C protocol. Connect the SCL connection from 
 > the SF11/C to pin A5 on the Arduino, and the SDA connection to pin A4.
 > 
 > The code for reading from the SF11/C and storing the value on the Arduino

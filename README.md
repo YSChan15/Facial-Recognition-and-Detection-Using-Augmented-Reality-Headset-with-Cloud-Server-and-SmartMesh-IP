@@ -1,9 +1,7 @@
-# Facial Recognition Program 
+# Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network
 
 ## Introduction 
-- This project is part of the senior design project:
-
-**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+- This is a senior design project at St. Cloud State University for Fall 2023 - Spring 2024
 
 - Advisor: Dr. Zheng 
 
@@ -21,7 +19,7 @@
 
 - Hayden developed/modified the Wireless Sensor Network with the custom network manager.
 
-- Brandon is in charge of developing the curved LiDAR PCB and upgrading the Wireless Sensor Network PCB.
+- Brandon developed the curved LiDAR PCB and upgraded the Wireless Sensor Network PCB which included adding a custom network manager.
 
 
 ## Abstract
