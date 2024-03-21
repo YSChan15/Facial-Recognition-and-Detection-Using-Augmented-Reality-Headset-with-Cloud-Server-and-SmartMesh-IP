@@ -150,7 +150,7 @@ On the center is the camera view from the headset. The camera preview is overlay
 -   Refer to arduino-code under the github branch for more information about the measurement system.
 
 ### Setting up the cloud server
--  Ensure that all the cloud programs are installed to a directory. In each of the programs, modify the IP address and ports to your needs.
+-  Ensure that all the cloud programs are installed to a directory. In each of the programs, modify the IP Address and Ports to your needs. Modify the path to the database and database file also.
 
 -  Ensure that a database directory is located inside of this directory. Each image in this file must be a cropped face named by the person and the number of the image (i.e. the 19th image of Brycen is Brycen19.jpg).
 
@@ -168,7 +168,7 @@ On the center is the camera view from the headset. The camera preview is overlay
 
 -  Ensure that this program is running on the cloud server before running the program on the AR headset and the Wireless Sensor Network.
 
-### Connecting to the cloud server 
+### Connecting to the cloud server from the AR headset
 -  Amazon EC2 cloud based server is used to process the face recognition. Change the IP Address and Port according to your needs.
 
 -  To connect to the server, just press the button "Connect to Server" and it will automatically connect.
