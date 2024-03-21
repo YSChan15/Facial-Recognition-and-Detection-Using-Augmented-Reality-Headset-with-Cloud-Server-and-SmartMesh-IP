@@ -9,11 +9,15 @@
 
 - Commitee: Dr Hossain, Dr Cavalcanti
   
-- Group members: Yu Sheng Chan, Brycen Hillukka, Hayden Scott, Brandon Wieberdink 
+- Group members: Brycen Hillukka, Yu Sheng Chan, Hayden Scott, Brandon Wieberdink 
 
 > This project is sponsored by a grant from the Emerson corporation.
 
-- A senior design capstone project. Worked with three others (Brycen, Hayden, Brandon) to develop this system. Yu Sheng developed the Arduino measuring system as well as the program for the Augmented Reality (AR) headset. Brycen developed all the facial recognition cloud server programs and helped Yu Sheng develop the initial version of both of his systems. Hayden developed/modified the Wireless Sensor Network with the custom network manager. Brandon is in charge of developing the curved LiDAR PCB and upgrading the Wireless Sensor Network PCB.
+- A senior design capstone project. The group members divided the work as follows:
+-- Brycen developed all the facial recognition cloud server programs and helped Yu Sheng develop the initial version of both of his systems.
+-- Yu Sheng developed the Arduino measuring system as well as the program for the Augmented Reality (AR) headset.
+-- Hayden developed/modified the Wireless Sensor Network with the custom network manager.
+-- Brandon is in charge of developing the curved LiDAR PCB and upgrading the Wireless Sensor Network PCB.
 
 - The program runs on Microsoft Hololens 2 headset, with features of performing facial recognition when connected to the headset or face detection when running it offline. Besides that, the program also calculates the estimated altitude, latitude, and longitude of the pointed distance with the Arduino based measuring system.
 
