@@ -20,3 +20,5 @@
 -  To run the Fisherface facial recognition cloud server program, run "./CPFF".
 
 -  Ensure that this program is running on the cloud server before running the program on the AR headset and the Wireless Sensor Network.
+
+-  To retrain one of the facial recognition algorithms with new data, delete the old saved AI model in the directory.
