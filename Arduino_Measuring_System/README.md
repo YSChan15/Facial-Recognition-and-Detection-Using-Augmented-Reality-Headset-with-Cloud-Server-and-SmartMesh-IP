@@ -1,47 +1,43 @@
 # Arduino Nano code 
 
 ## Introduction 
-* This project is part of the senior design of the following title:
 
-**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+### Authors:
+- Brycen Hillukka (Spring 2023)
+- Yu Sheng Chan   (Spring 2023)
 
-* Advisor: Dr Zheng 
+### Spring 2023 
+Reads the measured distance from the SF11/C LiDAR sensor using an 
+Arduino Nano with the I2C protocol. Connect the SCL connection from 
+the SF11/C to pin A5 on the Arduino, and the SDA connection to pin A4.
+ 
+The code for reading from the SF11/C and storing the value on the Arduino
+were given in the datasheet for the LiDAR sensor. Refer to Github Datasheet section (SF11 datasheet)
 
-* Commitee: Dr Hossain, Dr Cavalcanti
+### Fall 2023
+Further modifications were made by:
+- Yu Sheng Chan   (Fall 2023)
+ 
+- New addition: GPS and Electronic Compass module 
+ 
+- Reads the GPS location and Electronic Compass moudle reading to determine the coordinates of a measured point 
   
-* Group members: Brycen Hillukka, Yu Sheng Chan Hayden Scott, Brandon Wieberdink 
+- Math is done on the AR Headset / UWP side instead of Arduino for quicker transfer rate 
 
-> This project is sponsored by a grant from the Emerson cooperation. 
+- The Electronic Compass module can be changed to either QMC or HMC chip. 
 
+- Please follow the datasheet for specific pinout / voltage requirements of the chip. 
 
-> Authors:
-> - Brycen Hillukka (Spring 2023)
-> - Yu Sheng Chan   (Spring 2023)
->
-> Reads the measured distance from the SF11/C LiDAR sensor using an 
-> Arduino Nano with the I2C protocol. Connect the SCL connection from 
-> the SF11/C to pin A5 on the Arduino, and the SDA connection to pin A4.
-> 
-> The code for reading from the SF11/C and storing the value on the Arduino
-> were given in the datasheet for the LiDAR sensor. Refer to Github Datasheet section (SF11 datasheet)
->
-> Further modifications were made by:
-> - Yu Sheng Chan   (Fall 2023)
-> 
->  New addition: GPS and Electronic Compass module 
-> 
->  Reads the GPS location and Electronic Compass moudle reading to determine the coordinates of a measured point 
->  Math is done on the AR Headset / UWP side instead of Arduino for quicker transfer rate 
-> 
->  The Electronic Compass module can be changed to either QMC or HMC chip. 
->  Please follow the datasheet for specific pinout / voltage requirements of the chip. 
->  If neither chip is used, please use your own library. 
->  Refer to README.MD files attached 
-> 
->  Use a high gain antenna if GPS disconnects frequently or could not connect during outdoor use. 
->  Please note that the GPS is intended for outdoor use. It is expected to have no signal indoors. 
->  Please refer to the specifications of the datasheet of GPS for antenna compatibality. 
-> 
+- If neither chip is used, please use your own library. 
+
+- Refer to README.MD files attached 
+ 
+> Use a high gain antenna if GPS disconnects frequently or could not connect during outdoor use. 
+  
+>**Please note that the GPS is intended for outdoor use. It is expected to have no signal indoors.** 
+ 
+>Please refer to the specifications of the datasheet of GPS for antenna compatibality. 
+ 
 
 ## Before you start 
 
