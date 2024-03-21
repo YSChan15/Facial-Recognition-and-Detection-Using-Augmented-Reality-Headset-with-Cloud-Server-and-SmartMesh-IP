@@ -3,17 +3,17 @@
 ## Introduction 
 - This project is part of the senior design project:
 
->**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
 
-- Advisor: Dr Zheng 
+- Advisor: Dr. Zheng 
 
-- Commitee: Dr Hossain, Dr Cavalcanti
+- Commitee: Dr. Hossain, Dr. Cavalcanti
   
 - Group members: Brycen Hillukka, Yu Sheng Chan, Hayden Scott, Brandon Wieberdink 
 
 > This project is sponsored by a grant from the Emerson corporation.
 
-- A senior design capstone project. The group members divided the work as follows:
+> A senior design capstone project. The group members divided the work as follows:
 >- Brycen developed all the facial recognition cloud server programs and helped Yu Sheng develop the initial version of both of his systems.
 >- Yu Sheng developed the Arduino measuring system as well as the program for the Augmented Reality (AR) headset.
 >- Hayden developed/modified the Wireless Sensor Network with the custom network manager.
