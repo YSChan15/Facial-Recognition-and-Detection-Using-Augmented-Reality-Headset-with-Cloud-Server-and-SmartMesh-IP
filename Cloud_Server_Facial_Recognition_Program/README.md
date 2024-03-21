@@ -1,7 +1,7 @@
 # Cloud Server Facial Recognition Programs 
 
 ### Setting up the cloud server
--  Install OpenCV to the cloud server.
+-  Install OpenCV on the cloud server.
 
 -  Ensure that all the cloud programs are installed to a directory on the server. In each of the programs, modify the IP Address and Ports to your needs. Modify the path to the database and database file also.
 
