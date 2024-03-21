@@ -1,5 +1,7 @@
 # Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network
 
+![](Picture/ECE%20462%20Facial%20Recognition%20Distribution%20System%20Poster.jpg)
+
 ## Introduction 
 - This is a senior design project at St. Cloud State University for Fall 2023 - Spring 2024
 
