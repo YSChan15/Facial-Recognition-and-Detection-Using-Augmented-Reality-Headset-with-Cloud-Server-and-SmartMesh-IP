@@ -18,39 +18,34 @@ were given in the datasheet for the LiDAR sensor. Refer to Github Datasheet sect
 Further modifications were made by:
 - Yu Sheng Chan   (Fall 2023)
  
-- New addition: GPS and Electronic Compass module 
+New addition: GPS and Electronic Compass module 
  
 - Reads the GPS location and Electronic Compass moudle reading to determine the coordinates of a measured point 
   
 - Math is done on the AR Headset / UWP side instead of Arduino for quicker transfer rate 
 
-- The Electronic Compass module can be changed to either QMC or HMC chip. 
-
-- Please follow the datasheet for specific pinout / voltage requirements of the chip. 
+- The Electronic Compass module can be changed to either QMC or HMC chip.
+> Refer to the datasheet of the chip itself to see if it requires 3.3V or 5V. A voltage selector is included on the right side of the Arduino PCB, where user can select either 3.3 or 5V.
 
 - If neither chip is used, please use your own library. 
-
-- Refer to README.MD files attached 
  
 > Use a high gain antenna if GPS disconnects frequently or could not connect during outdoor use. 
   
->**Please note that the GPS is intended for outdoor use. It is expected to have no signal indoors.** 
+>**Please note that the GPS is intended for outdoor use. It is expected to have no signal when its being used indoors.** 
  
 >Please refer to the specifications of the datasheet of GPS for antenna compatibality. 
  
-
 ## Before you start 
 
 ### Program / hardware needed 
 
-- Arduino IDE 
->Install Arduino IDE from this [link](https://downloads.arduino.cc/arduino-1.8.19-windows.exe).
-
-> **NOTE** : This code is programmed using Arduino IDE 1.8.19, which is a Legacy IDE.
+- [Arduino IDE](https://downloads.arduino.cc/arduino-1.8.19-windows.exe).
 
 - Mini-B USB cable 
 
 ### Libraries
+
+- Refer to each libraries installation guide below.
 
 #### Library of DFROBOT_QMC5883
 * Download the included zip libraries or go to [DFRobot Link](https://github.com/DFRobot/DFRobot_QMC5883) to download the zip folder
@@ -79,9 +74,9 @@ Further modifications were made by:
 **NOTE FOR GPS Module Connection**
 
 > * To get a good and stable GPS connection, it is best to use the system outdoors / close to window.
->
+
 > * Use your OWN location. Find it via [Magnetic Declination Website](http://magnetic-declination.com/) to get your inclination or declination angle.
-> 
+ 
 > * Replace your angle at the following line:
 >
 >  **For example:**
@@ -89,22 +84,19 @@ Further modifications were made by:
 >  **float declinationAngle = (X + (Y / 60.0)) / (180 / PI);**
 >
 >  **St Cloud / Waite Park Angle = 0'38E**
->
 >  
 >  ***Replace X and Y with the following angle above***
 >
->  
 >  **float declinationAngle = (0 + (38.0 / 60.0)) / (180 / PI);**
 
 ## Programming / Debugging the Arduino Nano
 
-* Remove the BLE module first before you program the Arduino Nano.
-> If Arduino is not being reprogrammed, there's no need to remove the BLE module.
+* Remove **ALL** serial connection before programming. This includes BLE module and GPS sensor. 
 
 * If Arduino errors out during the upload, check if the board used is correct. Make sure the board selected is correct (In this case its Arduino Nano).
 > Change the processor to the one with "old bootloader" in its name if it does not program.  
 
-* Make sure the lights on GPS, MPU6050 gyroscopic sensor, and LiDAR module are getting powered (indicated by the LED's).
+* Make sure the GPS, MPU6050 gyroscopic sensor, and LiDAR module are getting powered (indicated by the LED's).
 
 * Calibrate the compass sensor by turning the entire system 360 degrees. 
 

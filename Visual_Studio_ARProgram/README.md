@@ -9,7 +9,7 @@
 -   [Windows 10 / 11 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/), depending on the Windows Operating System you have. 
 
 -   Bluetooth connection enabled for communication between the LiDAR measuring system and PC / headset.
-> The measuring system information can be found [here](https://github.com/YSChan15/Arduino-Measuring-System).
+> The measuring system information can be found [here](https://github.com/YSChan15/Facial-Recognition-and-Detection-Using-Augmented-Reality-Headset-with-Cloud-Server-and-SmartMesh-IP/tree/main/Arduino_Measuring_System).
 
 -   A stable internet connection to communicate with the server.
 >**Note**: When running offline, the program will only be able to do face detection, not **face recognition**. 
@@ -136,13 +136,13 @@ On the center is the camera view from the headset. The camera preview is overlay
 -   Refer to arduino-code under the github branch for more information about the measurement system.
 
 ### Connecting to the cloud server from the AR headset
--  A Amazon EC2 cloud server is used to process the facial recognition results and distribute the information to the Wireless Sensor Network. Change the IP Address and Port according to your needs.
+-   Amazon EC2 cloud server is used to process the facial recognition results and distribute the information to the Wireless Sensor Network. Change the IP Address and Port according to your needs under Button_Click section.
 
 -  To connect to the server, just press the button "Connect to Server" and it will automatically connect.
 
->  If it connects successfully, the button will disappear and it will stay connected to the server until the program is closed / terminated. 
+>   If it connects successfully, the button will disappear and it will stay connected to the server until the program is closed / terminated. 
 
-> With new updates, the program can now disconnect from the server instead. The "Disconnect From Server" button will appear once the connection is made, allowing user to have the option to terminate their connection with the server from their side. 
+>   With new updates, the program can now disconnect from the server instead. The "Disconnect From Server" button will appear once the connection is made, allowing user to have the option to terminate their connection with the server from their side. 
 
 -  Once connected to the server, everytime a picture is taken, the program will transmit the most current picture taken and send it to the server, if there's faces to be recognized. 
 
