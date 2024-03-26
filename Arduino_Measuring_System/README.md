@@ -33,7 +33,7 @@ New addition: GPS and Electronic Compass module
   
 >**Please note that the GPS is intended for outdoor use. It is expected to have no signal when its being used indoors.** 
  
->Please refer to the specifications of the datasheet of GPS for antenna compatibality. 
+>Please refer to the specifications of the datasheet of GPS for antenna compatability. 
  
 ## Before you start 
 
