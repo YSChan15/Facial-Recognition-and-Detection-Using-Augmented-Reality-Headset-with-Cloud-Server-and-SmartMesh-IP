@@ -182,10 +182,11 @@ namespace ar_lidar_new
             //       on Android to find your service and characteristics.
             //
             //       The following characteristics and services is only applicable to this project's BLE module on the Arduino measuring system.
+                 
             // Service of BLE module. 
-            MyService_GUID = new Guid("");
+            MyService_GUID = new Guid("0000ffe0-0000-1000-8000-00805f9b34fb");
             // Characteristic of BLE module. 
-            MYCharacteristic_GUID = new Guid("");
+            MYCharacteristic_GUID = new Guid("{0000ffe1-0000-1000-8000-00805f9b34fb}");
             StartWatching();
             // Start the thread to update textbox.
             thr = new Thread(new ThreadStart(UpdateTextBox));
@@ -202,6 +203,7 @@ namespace ar_lidar_new
             // Disconnect button will ONLY appear when there's a made connection between server and the program. 
             button_disconnect.Opacity = 0;
             button_disconnect.Visibility = Visibility.Collapsed;
+            TextBox9.Visibility = Visibility.Collapsed;
         }
 
         /// <summary>
@@ -626,7 +628,6 @@ namespace ar_lidar_new
         private string ip;
         int socketconnect = 0;
 
-
         /// <summary>
         /// Connect button. If pressed, the program will try to connect to the server via the port and ip provided.
         /// Use your own port and ip. The following port and ip is specific to the port and ip of the Amazon EC2 server program port and ip.  
@@ -652,28 +653,15 @@ namespace ar_lidar_new
                     client = new TcpClient();
                     client.Connect(ip, port);
                     stream = client.GetStream();
-              
+                    
                     // If its connected
                     if (client.Connected)
                     {
-                        // Wait to receive "AllConnectionsMade" from the server
-                        // Server will send this signal once the connections from SmartMesh IP and this program are established 
-                        byte[] receiveddata = new Byte[1024];
-                        int bytesRead;
-                        string receivedmessage;
-                        do
+                        // Start the WaitForConnectionConfirmation method on a separate thread
+                        await Task.Run(async () =>
                         {
-                            if (stream.DataAvailable)
-                            {
-                                bytesRead = await stream.ReadAsync(receiveddata, 0, receiveddata.Length);
-                                receivedmessage = System.Text.Encoding.ASCII.GetString(receiveddata, 0, bytesRead);
-                                Debug.WriteLine(receivedmessage);
-                                if (String.Compare(receivedmessage, "AllConnectionsMade\n\0", StringComparison.Ordinal) == 0)
-                                {
-                                    break;
-                                }
-                            }
-                        } while (true);
+                            await WaitForConnectionConfirmation();
+                        });
                         Debug.WriteLine("Connected Successfully");
                     }
 
@@ -696,6 +684,39 @@ namespace ar_lidar_new
         }
 
         /// <summary>
+        /// Task for connecting to the server.
+        /// The task will be running separately from the main UI thread to prevent face tracking from hanging 
+        /// while trying to connect to the server. 
+        /// </summary>
+        /// <returns></returns>
+        private async Task WaitForConnectionConfirmation()
+        {
+            byte[] receiveddata = new Byte[1024];
+            int bytesRead;
+            string receivedmessage;
+            try
+            {
+                do
+                {
+                    if (stream.DataAvailable)
+                    {
+                        bytesRead = await stream.ReadAsync(receiveddata, 0, receiveddata.Length);
+                        receivedmessage = System.Text.Encoding.ASCII.GetString(receiveddata, 0, bytesRead);
+                        Debug.WriteLine(receivedmessage);
+                        if (String.Compare(receivedmessage, "AllConnectionsMade\n\0", StringComparison.Ordinal) == 0)
+                        {
+                            break;
+                        }
+                    }
+                } while (true);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Error in WaitForConnectionConfirmation: " + ex.Message);
+            }
+        }
+
+        /// <summary>
         /// Disconnect button. If preseed, the headset will disconnect from the Amazon EC2 server.  
         /// </summary>
         /// <param name="sender"></param>
@@ -706,26 +727,14 @@ namespace ar_lidar_new
             try
             {
                 // Write disconnect to the server to acknowledge the disconnection between server and program. 
-                byte[] receiveddata = new Byte[1024];
-                int bytesRead;
-                string receivedmessage;
                 byte[] disconnect = Encoding.ASCII.GetBytes("Disconnect");
                 await stream.WriteAsync(disconnect, 0, disconnect.Length);
 
-                // Wait to receive "OK" from the server
-                do
+                await Task.Run(async () =>
                 {
-                    if (stream.DataAvailable)
-                    {
-                        bytesRead = await stream.ReadAsync(receiveddata, 0, receiveddata.Length);
-                        receivedmessage = System.Text.Encoding.ASCII.GetString(receiveddata, 0, bytesRead);
-                        Debug.WriteLine(receivedmessage);
-                        if (String.Compare(receivedmessage, "OK\n\0", StringComparison.Ordinal) == 0)
-                        {
-                            break;
-                        }
-                    }
-                } while (true);
+                    await WaitForDisconnectionConfirmation();
+                    Debug.WriteLine("Trying to disconnect");
+                });
 
                 // Close resources in the reverse order of creation
                 // Close the stream
@@ -759,6 +768,42 @@ namespace ar_lidar_new
             }
         }
 
+        /// <summary>
+        /// Task for disconnecting from the server.
+        /// The task will be running separately from the main UI thread to prevent face tracking from hanging 
+        /// while trying to disconnect to the server. 
+        /// 
+        /// This task can be ignored and call directly as a function as the disconnect does not need a long time compared to connecting to the server. 
+        /// </summary>
+        /// <returns></returns>
+        private async Task WaitForDisconnectionConfirmation()
+        {
+            byte[] receiveddata = new Byte[1024];
+            int bytesRead;
+            string receivedmessage;
+            try
+            {
+                do
+                {
+                    // Wait to receive "OK" from the server
+                    if (stream.DataAvailable)
+                    {
+                        bytesRead = await stream.ReadAsync(receiveddata, 0, receiveddata.Length);
+                        receivedmessage = System.Text.Encoding.ASCII.GetString(receiveddata, 0, bytesRead);
+                        Debug.WriteLine(receivedmessage);
+                        if (String.Compare(receivedmessage, "OK\n\0", StringComparison.Ordinal) == 0)
+                        {
+                            break;
+                        }
+                    }
+                } while (true);
+            }
+            catch(Exception ex)
+            {
+                Debug.WriteLine("Error in WaitForDisconnectionConfirmation: " + ex.Message);
+            }
+        }
+
         // Variables for sending data
         byte[] textimage = Encoding.ASCII.GetBytes("Image");
         byte[] writetextdata = Encoding.ASCII.GetBytes("SensorData");
@@ -780,6 +825,8 @@ namespace ar_lidar_new
         ///https://stackoverflow.com/questions/13026666/sending-a-large-amount-of-data-throught-tcp-socket
         ///
         /// </summary>
+        /// 
+
         public async void SendFile()
         {
             // Do not display name until all names are received
@@ -1062,10 +1109,8 @@ namespace ar_lidar_new
 
                             // Write the word "OK" to the server 
                             await stream.WriteAsync(OK,0,OK.Length);
-                            /*
-                            Wait for the word "Complete" from the server as acknowledgement that all data
-                            (pictures and sensor data) are transmitted.
-                            */
+                            
+                            //Wait for the word "Complete" from the server as acknowledgement that all data (pictures and sensor data) are transmitted.
                             do
                             {
                                 if (stream.DataAvailable)
@@ -1123,6 +1168,32 @@ namespace ar_lidar_new
         }
 
         /// <summary>
+        /// Task for waiting OK signal from the server 
+        /// The task will be running separately from the main UI thread to prevent face tracking from hanging.
+        /// </summary>
+        /// <returns></returns>
+        private async Task WaitForOKSignal()
+        {
+            byte[] receiveddata = new Byte[1024];
+            int bytesRead;
+            string receivedmessage;
+            // Wait to receive "OK" from the server
+            do
+            {
+                if (stream.DataAvailable)
+                {
+                    bytesRead = await stream.ReadAsync(receiveddata, 0, receiveddata.Length);
+                    receivedmessage = System.Text.Encoding.ASCII.GetString(receiveddata, 0, bytesRead);
+                    Debug.WriteLine(receivedmessage);
+                    if (String.Compare(receivedmessage, "OK\n\0", StringComparison.Ordinal) == 0)
+                    {
+                        break;
+                    }
+                }
+            } while (true);
+        }
+
+        /// <summary>
         /// Add the names received into a list. Will be used for display later. 
         /// </summary>
         /// <param name="name"></param>
@@ -1130,6 +1201,8 @@ namespace ar_lidar_new
         {
             receivedNames.Add(name);
         }
+
+        
         #endregion
 
 
@@ -1576,7 +1649,7 @@ namespace ar_lidar_new
             FacesCanvas.FlowDirection = _mirroringPreview ? FlowDirection.RightToLeft : FlowDirection.LeftToRight;
         }
         #endregion
-
+            
         #region Face Detection boxes with names on the boxes
         // Variables to check if the program should clear the names on the boxes. 
         // The names will be cleared under two conditions: 

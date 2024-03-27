@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ff1b5b93-e1ab-4b89-9d79-4d08e5a387da</PackageIdentityName>
     <PackageIdentityPublisher>CN=Yu Sheng</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>59E975881105F038E9DE304311E6D88A86C7B692B2779D5A5B679338FDE600E9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ff1b5b93-e1ab-4b89-9d79-4d08e5a387da_1.0.0.0_x86__mwz0yzs2jdvc8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ff1b5b93-e1ab-4b89-9d79-4d08e5a387da_mwz0yzs2jdvc8!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-20T05:01:16.615</Modified>
+      <Modified>2024-03-27T15:53:53.416</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.exe">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.exe">
       <PackagePath>entrypoint\ar_lidar_new.exe</PackagePath>
-      <Modified>2024-02-20T05:01:15.248</Modified>
+      <Modified>2024-03-27T15:53:52.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yushe\.nuget\packages\microsoft.mixedreality.webrtc\2.0.2\runtimes\win10-x86\native\mrwebrtc.dll">
       <PackagePath>mrwebrtc.dll</PackagePath>
@@ -78,67 +78,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2023-09-30T08:17:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2023-09-08T22:39:05.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2023-09-08T22:39:05.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.070</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.106</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2023-09-08T22:39:05.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.xr.xml">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.xr.xml">
       <PackagePath>ar_lidar_new.xr.xml</PackagePath>
-      <Modified>2024-02-20T05:01:15.076</Modified>
+      <Modified>2024-02-06T02:33:08.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-02-20T05:01:15.081</Modified>
+      <Modified>2024-03-27T15:53:52.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-02-20T05:01:15.081</Modified>
+      <Modified>2024-03-27T15:53:52.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2023-09-30T11:03:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-20T05:01:15.646</Modified>
+      <Modified>2024-02-19T15:49:10.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Core\ar_lidar_new.exe">
+    <AppxPackagedFile Include="C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\ar_lidar_new.exe">
       <PackagePath>ar_lidar_new.exe</PackagePath>
-      <Modified>2024-02-20T05:01:16.612</Modified>
+      <Modified>2024-03-27T15:53:53.405</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

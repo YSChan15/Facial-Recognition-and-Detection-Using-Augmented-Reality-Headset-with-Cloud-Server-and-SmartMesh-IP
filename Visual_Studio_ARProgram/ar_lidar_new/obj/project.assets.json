@@ -11261,11 +11261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yushe\\Desktop\\AR-Program-Public\\ar_lidar_new\\ar_lidar_new.csproj",
+      "projectUniqueName": "C:\\Users\\yushe\\Desktop\\ECE461\\ar_lidar_new\\ar_lidar_new\\ar_lidar_new.csproj",
       "projectName": "ar_lidar_new",
-      "projectPath": "C:\\Users\\yushe\\Desktop\\AR-Program-Public\\ar_lidar_new\\ar_lidar_new.csproj",
+      "projectPath": "C:\\Users\\yushe\\Desktop\\ECE461\\ar_lidar_new\\ar_lidar_new\\ar_lidar_new.csproj",
       "packagesPath": "C:\\Users\\yushe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yushe\\Desktop\\AR-Program-Public\\ar_lidar_new\\obj\\",
+      "outputPath": "C:\\Users\\yushe\\Desktop\\ECE461\\ar_lidar_new\\ar_lidar_new\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

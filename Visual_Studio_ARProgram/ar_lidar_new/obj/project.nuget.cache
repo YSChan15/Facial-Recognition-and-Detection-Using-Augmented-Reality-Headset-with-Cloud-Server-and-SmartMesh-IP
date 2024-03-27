@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s7QIGERkyPxGjQ/XaAUjfZ/FSN+u2PUv8asHRHCKChr9h71BO5zc8JXBvh4plRT5HPEGFnPbHH9kfvfFuLeWLA==",
+  "dgSpecHash": "5UHT8BlHUykW8mvBWM8E63sbrOdfS/4Cw/uJppqFQf3j1xkQs2YDhVYqYpgxqeUJS/71wDSc71t49uCHspvk7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yushe\\Desktop\\AR-Program-Public\\ar_lidar_new\\ar_lidar_new.csproj",
+  "projectFilePath": "C:\\Users\\yushe\\Desktop\\ECE461\\ar_lidar_new\\ar_lidar_new\\ar_lidar_new.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yushe\\.nuget\\packages\\microsoft.mixedreality.webrtc\\2.0.2\\microsoft.mixedreality.webrtc.2.0.2.nupkg.sha512",
     "C:\\Users\\yushe\\.nuget\\packages\\microsoft.mixedreality.webrtc.uwp\\2.0.2\\microsoft.mixedreality.webrtc.uwp.2.0.2.nupkg.sha512",

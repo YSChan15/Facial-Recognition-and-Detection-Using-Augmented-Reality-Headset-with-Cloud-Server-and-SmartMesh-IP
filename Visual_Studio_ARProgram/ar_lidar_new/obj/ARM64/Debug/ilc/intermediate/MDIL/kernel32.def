@@ -1,0 +1,30 @@
+LIBRARY kernel32.dll
+EXPORTS
+   FormatMessageW
+   WideCharToMultiByte
+   GetConsoleCP
+   ReadFile
+   SetFileCompletionNotificationModes
+   GetConsoleOutputCP
+   GetConsoleMode
+   GetCPInfoExW
+   MultiByteToWideChar
+   ReadConsoleW
+   GetStdHandle
+   DuplicateHandle
+   WriteConsoleW
+
+   SetThreadErrorMode
+
+   FindClose
+   GetFileAttributesExW
+   WriteFile
+   LocalAlloc
+   GetCurrentThread
+   CloseHandle
+   GetFileType
+   FindFirstFileExW
+   LoadLibraryW
+   GetCurrentProcess
+   CheckTokenMembershipEx
+   LocalFree

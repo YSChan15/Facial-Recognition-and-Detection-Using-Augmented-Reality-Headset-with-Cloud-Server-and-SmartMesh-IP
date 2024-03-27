@@ -1,55 +1,111 @@
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\App.xbf
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\MainPage.xbf
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.xr.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.exe
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.pdb
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\resources.pri
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\AppxManifest.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Core\ar_lidar_new.exe
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\ar_lidar_new.build.appxrecipe
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\mrwebrtc.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Microsoft.MixedReality.WebRTC.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\OpenCvSharp.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\OpenCvSharpExtern.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\opencv_img_hash480.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\opencv_world480.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\System.Runtime.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\SharpDX.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\SharpDX.pdb
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.AssemblyReference.cache
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\App.g.i.cs
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\App.g.cs
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\MainPage.g.cs
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\XamlTypeInfo.g.cs
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\App.xaml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\MainPage.xaml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\App.xbf
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\MainPage.xbf
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CoreCompileInputs.cache
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CopyComplete
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\SharpDX.pri.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ar_lidar_new.exe
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ar_lidar_new.pdb
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ResourceHandlingTask.state
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\priconfig.xml
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\resources.resfiles
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\pri.resfiles
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\pri.resfiles.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\qualifiers.txt
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\qualifiers.txt.intermediate
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\yushe\Desktop\AR-Program-Public\ar_lidar_new\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316586480000000.json
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\App.xbf
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\MainPage.xbf
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.xr.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.exe
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.pdb
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\resources.pri
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\AppxManifest.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\ar_lidar_new.exe
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.build.appxrecipe
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\mrwebrtc.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Microsoft.MixedReality.WebRTC.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\OpenCvSharp.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\OpenCvSharpExtern.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\opencv_img_hash480.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\opencv_world480.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\System.Runtime.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\SharpDX.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\SharpDX.pdb
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.AssemblyReference.cache
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.g.i.cs
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.g.cs
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.g.cs
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.xaml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.xaml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.xbf
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.xbf
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CoreCompileInputs.cache
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CopyComplete
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\SharpDX.pri.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.exe
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.pdb
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\priconfig.xml
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\resources.resfiles
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\pri.resfiles
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\qualifiers.txt
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Yu Sheng\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424995200000000.json
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\App.xbf
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\MainPage.xbf
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.xr.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.exe
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.pdb
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\resources.pri
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\AppxManifest.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Core\ar_lidar_new.exe
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\ar_lidar_new.build.appxrecipe
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\mrwebrtc.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Microsoft.MixedReality.WebRTC.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\OpenCvSharp.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\OpenCvSharpExtern.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\opencv_img_hash480.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\opencv_world480.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\System.Runtime.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\SharpDX.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\SharpDX.pdb
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.AssemblyReference.cache
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.g.i.cs
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.g.cs
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.g.cs
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.xaml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.xaml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\App.xbf
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MainPage.xbf
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CoreCompileInputs.cache
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.csproj.CopyComplete
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\SharpDX.pri.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.exe
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ar_lidar_new.pdb
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\priconfig.xml
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\resources.resfiles
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\pri.resfiles
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\qualifiers.txt
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424995200000000.json
+C:\Users\yushe\Desktop\ECE461\ar_lidar_new\ar_lidar_new\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316586480000000.json

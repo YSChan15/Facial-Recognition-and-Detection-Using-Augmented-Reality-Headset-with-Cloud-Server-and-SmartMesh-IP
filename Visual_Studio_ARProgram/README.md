@@ -1,6 +1,20 @@
 # Facial Recognition Program 
 
 ## Introduction 
+- This project is part of the senior design of the following title:
+
+>**Facial Recognition and Detection using Augmented Reality Headset with Cloud Server and SmartMesh IP Network**
+
+- Advisor: Dr Zheng 
+
+- Commitee: Dr Hossain, Dr Cavalcanti
+  
+- Group members: Yu Sheng Chan, Brycen Hillukka, Hayden Scott, Brandon Wieberdink 
+
+> This project is sponsored by a grant from the Emerson corporation.
+
+- This is a senior design capstone project. Worked with three others (Brycen, Hayden, Brandon) to develop this system. I am in charge of developing the Arduino measuring system as well as the program for the Augmented Reality (AR) headset.
+
 - The program runs on Microsoft Hololens 2 headset, with features of performing facial recognition when connected to the headset or face detection when running it offline. Besides that, the program also calculates the estimated altitude, latitude, and longitude of the pointed distance with the Arduino based measuring system.
 
 ## Requirements 
@@ -9,7 +23,7 @@
 -   [Windows 10 / 11 SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/), depending on the Windows Operating System you have. 
 
 -   Bluetooth connection enabled for communication between the LiDAR measuring system and PC / headset.
-> The measuring system information can be found [here](https://github.com/YSChan15/Facial-Recognition-and-Detection-Using-Augmented-Reality-Headset-with-Cloud-Server-and-SmartMesh-IP/tree/main/Arduino_Measuring_System).
+> The measuring system information can be found [here](https://github.com/YSChan15/Arduino-Measuring-System).
 
 -   A stable internet connection to communicate with the server.
 >**Note**: When running offline, the program will only be able to do face detection, not **face recognition**. 
@@ -61,16 +75,19 @@
 
 >   **If no changes are made to the program, user can just go into Start -> Other Programs and look for the UWP program that has been installed inside the PC. This will save a lot of time and resources.**
 
-1)   Select Debug Mode as solution configuration. 
+1)  Select Debug Mode as solution configuration. 
 
 ![](Pictures/Step%203_1.png)
-2)   Select x86 as the platform.
+
+2)  Select x86 as the platform.
 
 ![](Pictures/Step%203_2.png)
-3)   Select Local Machine as the target. 
+
+3)  Select Local Machine as the target. 
 
 ![](Pictures/Step%203_3.png)
-4)   Click "Local Machine" to run the program. 
+
+4)  Click "Local Machine" to run the program. 
 
 5)  The permission will run on the PC and goes into Debug Mode. On the PC, the user needs to grant the permission to use the camera and the microphone.
 >**NOTE**: This step is not always required. Granting permission is usually done during the first run or when the program undergoes a major changes. If there is no pop up permission, user can safely ignore step 5 above.
@@ -80,21 +97,25 @@
 
 >   **If no changes are made to the program, user can just go into Start -> Other Programs and look for the UWP program that has been installed inside the headset. This will save a lot of time and resources.**
 
+
 1)  Select Debug Mode as solution configuration. 
 
 ![](Pictures/Step%203_1.png)
-2)   Select ARM as the platform. 
+
+2)  Select ARM as the platform. 
 
 ![](Pictures/Step%203_2_2.png)
 >   Try ARM64 as the platform instead if program could not run. 
 
 
-3)   Select Remote Machine as the target. 
+3)  Select Remote Machine as the target. 
 
 ![](Pictures/Step%203_2_3.png)
-4)   Go to ***program name*** Debug Properties.
+
+4)  Go to ***program name*** Debug Properties.
 
 ![](Pictures/Step%203_2_4.png)
+
 5)  Type in the Address of the Hololens 2. If connected to the school WiFi, use the following address: 
 ```
 10.101.18.5 
@@ -103,12 +124,12 @@ and set Authentication Mode to Universal (Unencrypted Protocol).
 
 ![](Pictures/Step%203_2_5.png)
 
->   **NOTE**: If you are using the HoloLens 2 on a different network other than HuskeyNet Secure or Visual Studio could not find the address, the address might have changed. On the HoloLens 2, go to Settings -> Update & Security -> For developers. Under the “Device Portal” section, the IP address of the Device can be found on the Connect using Wi-Fi section. The address is the number after the https://. Replace the address with the number. 
+>   **NOTE**: If you are using HoloLens 2 on a different network other than HuskeyNet Secure or Visual Studio could not find the address, the address might have changed. In HoloLens 2, go to Settings -> Update & Security -> For developers. Under the “Device Portal” section, IP address of the Device can be found on the Connect using Wi-Fi section. The address is number after the https://. Replace the address with the number. 
 
-> **NOTE**: If this is the first time the PC is being paired with the Hololens 2, additional pin is required.
+>   **NOTE**: If this is the first time the PC is being paired with the Hololens 2, additional pin is required.
 The additional pin can be found under Settings -> Update & Security -> For developers -> Pair. 
 
-6) The button besides the platform selection should be changed from Local Machine to Remote Machine. Click "Remote Machine" to run the program. 
+6)  The button besides the platform selection should be changed from Local Machine to Remote Machine. Click "Remote Machine" to run the program. 
 
 >   This will take a while to upload it to the headset. It should take around 10-60 seconds, depending on the network connection / PC hosting the program. 
 
@@ -123,38 +144,37 @@ On the left, user can find the following buttons from top to bottom:
 1) Face detection button. This will draw a box around each face that the program detects. 
 2) Take photo button. This will allow the program to take a photo. When photo is taken, the button is temporarily disabled to avoid user from spamming the button. 
 > If the program is connected to the server, the headset will transmit the cropped faces to the server for facial recognition. 
-3) Connect to server / Disconnect from server button. The purpose of the button is to allow user to connect to the server for facial recognition, or disconnect it for no facial recognition. 
+3) Connect to server / Disconnect from server button. The purpose of the button is to allow user to connect to the server for face recognition, or disconnect it for no face recognition. 
 > Only one of the connect / disconnect button will appear at a time. This is to prevent user from accidentally pressing both buttons at a time, crashing the program / server. 
 
-On the right, the user can find multiple textboxes with their description on top of the textbox. The textbox's purpose is to display all the measured data. The column to the far right is the self point data (measurement system on the headset). The column to the left of that displays the measured / estimated point data with the measurement data from the measurement system. 
+On the right, user can find multiple textboxes with their description on top of the textbox. The textbox purpose is to display all the measurements data. The column to the far right is the self point data (measurement system on the headset). The column on the second right displays the measured / estimated point data with the measurement data from the measurement system. 
 
 On the center is the camera view from the headset. The camera preview is overlayed on top of the boxes / buttons.
 
 ### Taking measurements with the measurement system. 
--   The measurement system utilizes an Arduino Nano microcontroller. The purpose of the system is to collect data and send the data to the AR headset for estimating the measured person's GPS location.
+-   The measurement system is an Arduino based system. The purpose of the system is to just collect data and send the data to the program for calculation. Therefore, only a simple microcontroller is needed to run the task.
 
--   Refer to arduino-code under the github branch for more information about the measurement system.
+-   Refer to Arduino repository linked [here](https://github.com/YSChan15/Arduino-Measuring-System) for more information about the measurement system. 
 
-### Connecting to the cloud server from the AR headset
--   Amazon EC2 cloud server is used to process the facial recognition results and distribute the information to the Wireless Sensor Network. Change the IP Address and Port according to your needs under Button_Click section.
+### Connecting to the server 
+-  Amazon EC2 cloud based server is used to process the face recognition. Change the IP Address and Port according to your needs.
 
 -  To connect to the server, just press the button "Connect to Server" and it will automatically connect.
 
->   If it connects successfully, the button will disappear and it will stay connected to the server until the program is closed / terminated. 
+>  If it connects successfully, the button will disappear and it will stay connected to the server until the program is closed / terminated. 
 
->   With new updates, the program can now disconnect from the server instead. The "Disconnect From Server" button will appear once the connection is made, allowing user to have the option to terminate their connection with the server from their side. 
+> With new updates, the program can now disconnect from the server instead. The "Disconnect From Server" button will appear once the connection is made, allowing user to have the option to terminate their connection with the server from their side. 
 
 -  Once connected to the server, everytime a picture is taken, the program will transmit the most current picture taken and send it to the server, if there's faces to be recognized. 
 
 ### Detecting / Recognizing face 
--   The facial detection and recognition algorithm has two separate parts. The detecting part is run purely from the AR headset program, which requires no additional server connection to do so. 
+-   The detecting / recognizing face algorithm has two seperate parts. The detecting part is run purely from the program, which requires no additional server connection to do so. 
 
 -   To recognize faces, the face has to be part of the database on the server. Then, whenever a picture is taken with faces inside the frame of the picture, it will be transmitted to the server for analysis. The server will send back names and it will be displayed on the box where the face is drawn.
 
 > The faces are compared against the database on a server. If the faces are not part of the database, it will display unknown on the non-recognized face.
 
-> This program is intended and able to recognize multiple faces at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
-
+> This program is intended and able to perform multiple face recognition at a time. However, the orientation when taking the picture needs to be fixed. Any changes on the orientation will result in inaccuracy of the data as the facial algorithm only allows 1 face to be compared to the database at a time. 
 
 
 

@@ -1,0 +1,9 @@
+LIBRARY api-ms-win-core-file-l1-2-0.dll
+EXPORTS
+   SetFilePointerEx
+   FlushFileBuffers
+   GetFileAttributesExW
+   ReadFile
+   WriteFile
+   CreateFile2
+   SetEndOfFile
